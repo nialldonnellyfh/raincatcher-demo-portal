@@ -1,7 +1,8 @@
 'use strict';
 
 var angular = require('angular');
-require('feedhenry');
+//Requiring the client SDK with Drag & Drop Apps Functionality.
+require('fh-js-sdk/dist/feedhenry-forms.js');
 
 angular.module('app', [
   require('angular-ui-router')
