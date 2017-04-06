@@ -32,7 +32,6 @@ angular.module('app', [
   data: { columns: 2 }
 })
 , require('fh-wfm-schedule')
-, require('fh-wfm-analytics')
 , require('fh-wfm-camera')
 , require('./home/home')
 , require('./appform/appform')
@@ -44,7 +43,6 @@ angular.module('app', [
   detailStateMount: "app.file.detail"
 })
 , require('./schedule/schedule')
-, require('./analytics/analytics')
 , require('./settings')
 ]);
 
