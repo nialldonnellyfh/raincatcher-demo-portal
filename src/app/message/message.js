@@ -49,8 +49,8 @@ angular.module('app.message', [
           templateUrl: 'app/message/message-new.tpl.html',
           controller: 'messageNewController as ctrl',
           resolve: {
-            message: function(messageManager) {
-              return messageManager.new();
+            message: function() {
+              return {};
             },
             workers: function(userClient) {
               return userClient.list();
